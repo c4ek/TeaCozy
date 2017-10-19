@@ -1,0 +1,132 @@
+
+body{
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 9;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+header {
+  position: fixed;
+  border-bottom: 1px solid seashell;
+  align-self: center;
+  width: 100%;
+  z-index:10;
+  background-color: black;
+  height: 69px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+header img {
+  margin-left: 10px;
+  height: 50px;
+  display: inline-flex;
+}
+
+#nav {
+  display: inline-flex;
+  justify-content: space-around;
+  width:25%;
+}
+
+.container {
+  position: relative;
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.mission-background{
+  position:relative;
+  top: 1px;
+  z-index: 0;
+  background-image: url("../photos/img-mission-background.jpg");
+  width: 1200px;
+  height: 701px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /*border: 2px solid red;*/
+}
+
+  #mission {
+    z-index: 5;
+    background-color: black;
+    width: 100%;
+  }
+
+
+.tea-month{
+  display: inline-flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 1000px;
+  /*height: 700px;*/
+  margin: auto;
+  border: 2px solid blue;
+}
+
+#tea-list {
+  display: flex;
+  flex direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: space-between;
+  justify-content: center;
+  width: 1000px;
+  /* border: solid 2px purple;*/
+}
+#tea-list img {
+  height:200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.location-background {
+  background-image: url("../photos/img-locations-background.jpg");
+  height: 500px;
+  width: 1200px;
+  margin: auto;
+  /* border: 2px solid red;*/
+}
+
+.location-background h2 {
+  margin-bottom: 0px;
+}
+
+  #location-info{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    border: 2px solid green;
+    margin-top: 15px;
+    z-index: 5;
+  }
+
+  #location-info div {
+    width: 300px;
+    z-index: 5;
+    background: black;
+    /* border: 3px solid pink;*/
+    margin: 0px 20px;
+  }
+
+.contact{}
+
+footer{
+  text-align:left;
+  margin: 0px 0px 0px 20px;
+}
