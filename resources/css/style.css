@@ -12,6 +12,7 @@ a {
   text-decoration: underline;
 }
 
+
 header {
   position: fixed;
   border-bottom: 1px solid seashell;
@@ -72,17 +73,24 @@ header img {
   display: inline-flex;
   flex-wrap: wrap;
   flex-direction: column;
+  justify-content:flext-start;
   width: 1000px;
-  /*height: 700px;*/
-  margin: auto;
-  border: 2px solid blue;
+  /* border: 2px solid blue; */
+}
+
+h2 {
+  margin: 10px;
+}
+
+h4 {
+  margin: 5px;
 }
 
 #tea-list {
   display: flex;
   flex direction: row;
   flex-wrap: wrap;
-  align-items: flex-start;
+  align-items: space-around;
   align-content: space-between;
   justify-content: center;
   width: 1000px;
@@ -111,7 +119,7 @@ header img {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    border: 2px solid green;
+    /* border: 2px solid green; */
     margin-top: 15px;
     z-index: 5;
   }
